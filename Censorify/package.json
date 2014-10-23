@@ -5,6 +5,6 @@
 "repository":{
 	"type":"git",
 	"url":"https://github.com/AdamBelson/MEAN_Tutorials/tree/master/Censorify"
-}
+},
 "version":"0.0.1",
 "dependencies":{}}

@@ -1,45 +1,114 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'pack' ]
+1 verbose cli   'publish' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
 4 verbose node symlink C:\Program Files\nodejs\\node.exe
-5 verbose cache add [ '.', null ]
-6 verbose cache add name=undefined spec="." args=[".",null]
-7 verbose parsed url { protocol: null,
-7 verbose parsed url   slashes: null,
-7 verbose parsed url   auth: null,
-7 verbose parsed url   host: null,
-7 verbose parsed url   port: null,
-7 verbose parsed url   hostname: null,
-7 verbose parsed url   hash: null,
-7 verbose parsed url   search: null,
-7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: '.',
-7 verbose parsed url   path: '.',
-7 verbose parsed url   href: '.' }
-8 silly lockFile 3a52ce78- .
-9 verbose lock . C:\Users\adamb\AppData\Roaming\npm-cache\3a52ce78-.lock
-10 silly lockFile 3a52ce78- .
-11 silly lockFile 3a52ce78- .
-12 error addLocal Could not install .
-13 error Error: No name provided
-13 error     at needName (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-local.js:138:37)
-13 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-local.js:76:10
-13 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:51:40
-13 error     at final (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:349:17)
-13 error     at then (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:126:33)
-13 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:266:40
-13 error     at evalmachine.<anonymous>:271:14
-13 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:102:5
-13 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
-14 error If you need help, you may report this *entire* log,
-14 error including the npm and node versions, at:
-14 error     <http://github.com/npm/npm/issues>
-15 error System Windows_NT 6.1.7601
-16 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "pack"
-17 error cwd C:\Projects\GitHub\MEAN_Tutorials\Censorify
-18 error node -v v0.10.32
-19 error npm -v 1.4.28
-20 verbose exit [ 1, true ]
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\adamb\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\adamb\\AppData\\Roaming\\npm-cache\\censorify\\0.0.1\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package.tgz
+13 verbose folder .
+14 info prepublish censorify@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\adamb\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile c8aac6d7-ache-censorify-0-0-1-package-tgz tar://C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package.tgz
+18 verbose lock tar://C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package.tgz C:\Users\adamb\AppData\Roaming\npm-cache\c8aac6d7-ache-censorify-0-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile c8aac6d7-ache-censorify-0-0-1-package-tgz tar://C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package.tgz
+22 silly lockFile c8aac6d7-ache-censorify-0-0-1-package-tgz tar://C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package.tgz
+23 silly lockFile f7197d9e-pm-cache-censorify-0-0-1-package C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package
+24 verbose lock C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package C:\Users\adamb\AppData\Roaming\npm-cache\f7197d9e-pm-cache-censorify-0-0-1-package.lock
+25 silly lockFile f7197d9e-pm-cache-censorify-0-0-1-package C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package
+26 silly lockFile f7197d9e-pm-cache-censorify-0-0-1-package C:\Users\adamb\AppData\Roaming\npm-cache\censorify\0.0.1\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'censorify',
+29 silly publish   author: { name: 'adam' },
+29 silly publish   main: 'censortext',
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/AdamBelson/MEAN_Tutorials/tree/master/Censorify' },
+29 silly publish   version: '0.0.1',
+29 silly publish   dependencies: {},
+29 silly publish   readme: '\r\n\r\n# Censorify\r\n\r\n\r\n\r\n## Usage\r\n\r\n\r\n\r\n## Developing\r\n\r\n\r\n\r\n### Tools\r\n\r\nCreated with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\r\n ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   \r\n\r\nNodeclipse is free open-source project that grows with your contributions.\r\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   description: 'Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\r  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))',
+29 silly publish   _id: 'censorify@0.0.1',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: '22bb8be9e42af63c70a5caf7271a52b796fef9ab',
+29 silly publish   _from: '.' }
+30 verbose request where is /censorify
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 62a7ef962b6f886a
+33 verbose url raw /censorify
+34 verbose url resolving [ 'https://registry.npmjs.org/', './censorify' ]
+35 verbose url resolved https://registry.npmjs.org/censorify
+36 verbose request where is https://registry.npmjs.org/censorify
+37 info trying registry request attempt 1 at 15:31:12
+38 http PUT https://registry.npmjs.org/censorify
+39 http 403 https://registry.npmjs.org/censorify
+40 verbose headers { date: 'Thu, 23 Oct 2014 14:31:13 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '1427',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-ams4130-AMS',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1414074672.874070,VS0,VE318',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden user: adambelson not authorized to modify censorify
+42 error Changed: description "Censors words out of text" -> "Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\u000d  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))"
+42 error Changed: dist-tags.latest "0.1.1" -> "0.0.1"
+42 error Added: versions.0.0.1
+42 error Changed: readme "This is first node.js file\u000a" -> "\u000d\u000a\u000d\u000a# Censorify\u000d\u000a\u000d\u000a\u000d\u000a\u000d\u000a## Usage\u000d\u000a\u000d\u000a\u000d\u000a\u000d\u000a## Developing\u000d\u000a\u000d\u000a\u000d\u000a\u000d\u000a### Tools\u000d\u000a\u000d\u000aCreated with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\u000d\u000a ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   \u000d\u000a\u000d\u000aNodeclipse is free open-source project that grows with your contributions.\u000d\u000a"
+42 error Changed: time.modified "2014-07-18T15:24:31.950Z" -> "2014-10-23T14:32:16.196Z"
+42 error Added: time.0.0.1
+42 error Deleted: homepage
+42 error Deleted: keywords
+42 error Changed: repository.url "https://github.com/sisingh/nodebook-ch03-censorify" -> "https://github.com/AdamBelson/MEAN_Tutorials/tree/master/Censorify"
+42 error Changed: author.name "Brad Dayley" -> "adam"
+42 error Deleted: bugs
+42 error Added: _attachments: censorify
+42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.1.7601
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error cwd C:\Projects\GitHub\MEAN_Tutorials\Censorify
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]
