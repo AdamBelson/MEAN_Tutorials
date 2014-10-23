@@ -54,29 +54,29 @@
 29 silly publish   description: 'Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\r  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))',
 29 silly publish   _id: 'censorify@0.0.1',
 29 silly publish   scripts: {},
-29 silly publish   _shasum: '22bb8be9e42af63c70a5caf7271a52b796fef9ab',
+29 silly publish   _shasum: 'cdc24f9b24289697e6fa948bb3ec6c36bc41e32e',
 29 silly publish   _from: '.' }
 30 verbose request where is /censorify
 31 verbose request registry https://registry.npmjs.org/
-32 verbose request id 62a7ef962b6f886a
+32 verbose request id 85b41ccf54ab96ee
 33 verbose url raw /censorify
 34 verbose url resolving [ 'https://registry.npmjs.org/', './censorify' ]
 35 verbose url resolved https://registry.npmjs.org/censorify
 36 verbose request where is https://registry.npmjs.org/censorify
-37 info trying registry request attempt 1 at 15:31:12
+37 info trying registry request attempt 1 at 15:37:54
 38 http PUT https://registry.npmjs.org/censorify
 39 http 403 https://registry.npmjs.org/censorify
-40 verbose headers { date: 'Thu, 23 Oct 2014 14:31:13 GMT',
+40 verbose headers { date: 'Thu, 23 Oct 2014 14:37:55 GMT',
 40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 40 verbose headers   'content-type': 'application/json',
 40 verbose headers   'cache-control': 'max-age=60',
 40 verbose headers   'content-length': '1427',
 40 verbose headers   'accept-ranges': 'bytes',
 40 verbose headers   via: '1.1 varnish',
-40 verbose headers   'x-served-by': 'cache-ams4130-AMS',
+40 verbose headers   'x-served-by': 'cache-ams4127-AMS',
 40 verbose headers   'x-cache': 'MISS',
 40 verbose headers   'x-cache-hits': '0',
-40 verbose headers   'x-timer': 'S1414074672.874070,VS0,VE318',
+40 verbose headers   'x-timer': 'S1414075074.759949,VS0,VE767',
 40 verbose headers   'keep-alive': 'timeout=10, max=50',
 40 verbose headers   connection: 'Keep-Alive' }
 41 error publish Failed PUT 403
@@ -85,7 +85,7 @@
 42 error Changed: dist-tags.latest "0.1.1" -> "0.0.1"
 42 error Added: versions.0.0.1
 42 error Changed: readme "This is first node.js file\u000a" -> "\u000d\u000a\u000d\u000a# Censorify\u000d\u000a\u000d\u000a\u000d\u000a\u000d\u000a## Usage\u000d\u000a\u000d\u000a\u000d\u000a\u000d\u000a## Developing\u000d\u000a\u000d\u000a\u000d\u000a\u000d\u000a### Tools\u000d\u000a\u000d\u000aCreated with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\u000d\u000a ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   \u000d\u000a\u000d\u000aNodeclipse is free open-source project that grows with your contributions.\u000d\u000a"
-42 error Changed: time.modified "2014-07-18T15:24:31.950Z" -> "2014-10-23T14:32:16.196Z"
+42 error Changed: time.modified "2014-07-18T15:24:31.950Z" -> "2014-10-23T14:38:58.543Z"
 42 error Added: time.0.0.1
 42 error Deleted: homepage
 42 error Deleted: keywords
